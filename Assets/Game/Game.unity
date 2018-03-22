@@ -167,6 +167,10 @@ Prefab:
       propertyPath: helicopter
       value: 
       objectReference: {fileID: 592217805}
+    - target: {fileID: 1772585924067116, guid: ab699fd55fe6989469de1f40e03ca8ad, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 82023228609555036, guid: ab699fd55fe6989469de1f40e03ca8ad, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ab699fd55fe6989469de1f40e03ca8ad, type: 2}

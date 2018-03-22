@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1530999487}
-  m_IndirectSpecularColor: {r: 0.28852746, g: 0.27210873, b: 0.21851918, a: 1}
+  m_IndirectSpecularColor: {r: 0.44561642, g: 0.48979658, b: 0.5445189, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -180,6 +180,10 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RunSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -531,6 +535,7 @@ GameObject:
   - component: {fileID: 1530999488}
   - component: {fileID: 1530999487}
   - component: {fileID: 1530999489}
+  - component: {fileID: 1530999490}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -580,13 +585,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1530999486}
-  m_LocalRotation: {x: 0.028562479, y: 0.7065297, z: 0.028562479, w: -0.7065297}
+  m_LocalRotation: {x: -0.09364173, y: 0.7008789, z: -0.09364173, w: -0.7008789}
   m_LocalPosition: {x: 0, y: 4.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -4.63, y: 270, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.22, y: 270, z: 0}
 --- !u!123 &1530999489
 LensFlare:
   m_ObjectHideFlags: 0
@@ -602,6 +607,18 @@ LensFlare:
     serializedVersion: 2
     m_Bits: 6
   m_Directional: 1
+--- !u!114 &1530999490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1530999486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2857c580747ead4b8d6aa3df30f68cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minutesPerSecond: 60
 --- !u!1 &1567012244
 GameObject:
   m_ObjectHideFlags: 0

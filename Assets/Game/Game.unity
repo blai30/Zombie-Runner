@@ -336,6 +336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c218558c518395428dbaa3a3a9829de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whatHappened: {fileID: 8300000, guid: 6f49368f721214fcc81fda6a7ccf9343, type: 3}
+  goodLandingArea: {fileID: 8300000, guid: 0f00476efd1774d2587939e6bd1a6bb4, type: 3}
 --- !u!82 &850342865
 AudioSource:
   m_ObjectHideFlags: 0
@@ -571,6 +573,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2319b4b4aa1a524c8b101254e9ed4bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialHeliCall: {fileID: 8300000, guid: d820bfda6b5b74e36a0637de9ed0cd61, type: 3}
+  initialCallReply: {fileID: 8300000, guid: 53f65e57d6bf34c7592571f82475f66f, type: 3}
 --- !u!82 &1234663174
 AudioSource:
   m_ObjectHideFlags: 0
